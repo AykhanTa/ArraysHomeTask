@@ -12,14 +12,21 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region Task2
-int[] numbers = {15,26,7,33,74,88,66};
-int max = numbers[0];
-for (int i = 0; i < numbers.Length; i++)
-{
-    if (numbers[i] > max)
-    {
-        max = numbers[i];
-    }
-}
-Console.WriteLine(max);
+//int[] numbers = {15,26,7,33,74,88,66};
+//int max = numbers[0];
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    if (numbers[i] > max)
+//    {
+//        max = numbers[i];
+//    }
+//}
+//Console.WriteLine(max);
+#endregion
+
+
+#region Task3
+int[] numbers = {1,11,15,22,34,49};
+int sum = numbers[0] + numbers[numbers.Length-1];
+Console.WriteLine(sum);
 #endregion
